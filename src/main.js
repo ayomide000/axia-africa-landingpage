@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import "./style.css";
-import router from "./router";
+// import router from "./router";
 // import { Vue3Icon } from "vue3-icon";
 import App from "./App.vue";
 
@@ -37,5 +37,5 @@ library.add(
 
 createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)
-  .use(router)
+  // .use(router)
   .mount("#app");
