@@ -1,9 +1,9 @@
 <template>
     <section class="w-screen h-screen bg-[#fffcf9]">
-        <article class="p-9 grid place-content-center place-items-center">
-            <div class=" px-33 w-[70%] mx-auto my-[4rem]">
+        <article class="md:p-9 grid md:place-content-center md:place-items-center">
+            <div class=" md:px-33 md:w-[70%] px-5 mx-auto my-[4rem]">
                 <h2 class="grid place-content-center place-items-center font-semibold text-3xl my-[2rem]">Partner With Us</h2>
-                <p class="font-thin text-[0.9rem] text-center w-[90%]">Do you have a passion for making impact and inspiring to the tech space? Partner with us at Axia Africa and share our passion of leading a generation of tech talents waiting to be tapped.</p>
+                <p class="font-thin text-[0.9rem] md:text-center md:w-[90%]">Do you have a passion for making impact and inspiring to the tech space? Partner with us at Axia Africa and share our passion of leading a generation of tech talents waiting to be tapped.</p>
                 <div class="grid place-content-center place-items-center">
                     <div class="group my-[5rem] mr-[5rem]">
                         <button

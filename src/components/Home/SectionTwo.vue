@@ -1,19 +1,19 @@
 <template>
-    <section class=" my-[5rem] px-33 w-[80%] mx-auto  font-serif">
+    <section class=" my-[5rem] md:px-33 md:w-[80%] mx-auto w-full px-4  font-serif">
         <!-- <article class="w-full max-w-[1000px]"> -->
-            <header class="grid grid-cols-2">
+            <header class="grid md:grid-cols-2">
                 <div>
-                    <h1 class="font-semibold text-3xl my-[2rem] leading-loose">Courses for you</h1>
+                    <h1 class="font-semibold text-2xl md:text-3xl my-[2rem] w-full leading-loose">Courses for you</h1>
                     <p class="leading-relaxed">Here are some courses from our schools that we offer.</p>
                     <p>Enroll and kickstart your tech career.</p>
                 </div>
-                <div></div>
+                <div class="hidden md:block"></div>
             </header>
             <!-- ====CARDS===== -->
-            <div class="my-[4rem] grid grid-cols-3 gap-6 w-full">
+            <div class="my-[4rem] md:grid grid-cols-3 gap-6 w-full">
                 <!-- ====PRODUCT DESIGN==== -->
                 <!-- ====FOR BORDER ==== -->
-                <div class="p-3 mr-5 border-2 border-r-0 border-slate-900">
+                <div class="p-3 mr-5 border-2 border-r-0 border-slate-900 mb-5">
                     <!-- =====MAIN CARD ==== -->
                     <div class="bg-[#faf5ee] -mt-5">
                         <img :src="ProducDesign" alt="product design">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <!-- ====DATA ANALYTICS==== -->
-                <div class="p-3 mr-5 border-2 border-r-0 border-slate-900"> 
+                <div class="p-3 mr-5 border-2 border-r-0 border-slate-900 mb-5"> 
                 <!-- ====FOR BORDER ==== -->
                     <div class="bg-[#faf5ee] -mt-5">
                     <!-- =====MAIN CARD ==== -->
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <!-- ====FRONTEND DEVELOPMENT==== -->
-                <div class="p-3 mr-5 border-2 border-r-0 border-slate-900">
+                <div class="p-3 mr-5 border-2 border-r-0 border-slate-900 mb-5">
                 <!-- ====FOR BORDER ==== -->
                     <div class="bg-[#faf5ee] -mt-5">
                     <!-- =====MAIN CARD ==== -->

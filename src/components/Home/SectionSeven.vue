@@ -1,12 +1,12 @@
 <template>
-    <section class="w-screen bg-[#fffcf9]">
+    <section class="w-screen bg-[#fffcf9] px-3">
         <!-- ===HEADING==== -->
-        <header class=" px-33 w-[80%] mx-auto my-[4rem]">
+        <header class=" md:px-33 md:w-[80%] mx-auto my-[4rem]">
             <h2>Our success story</h2>
             <p>What our students are saying about their learning experience.</p>
         </header>
         <!-- ====ANIMATION CARDS==== -->
-        <div class="my-[4rem] grid grid-cols-3 gap-5">
+        <div class="my-[4rem] grid md:grid-cols-3 gap-5">
             <!-- ====CARD ONE==== -->
             <div class="bg-[#faf5ee] px-3 pt-5">
                 <p class="mb-[2rem] text-[0.8rem]">I had no clue where to start in learning Product design, then Axia Africa started an online training and I joined. Within few weeks of coaching I was able to understand both UX & UI. The classes are interesting and gives room to ask questions. Materials provided were helpful. It was a great to learning experience led by the fantastic teachers. I would highly recommend this training if you are a beginner</p>

@@ -1,9 +1,9 @@
 <template>
-     <nav class="fixed z-10 w-full center inset-x-0 bg-[#fffcf9] h-[5rem] p-3">
+     <nav class="fixed z-10 w-full center inset-x-0 bg-[#fffcf9] h-[5rem] p-3 ">
      <div class="container px-33 mx-auto">
-        <header class="container w-full flex items-center justify-between">
+        <header class=" w-[60%] md:w-full flex items-center justify-between">
             <div>
-               <router-link to="/"><img :src="Logo" alt="axia logo"></router-link> 
+               <img :src="Logo" alt="axia logo">
             </div>
             <div class="flex gap-2">
                 <li>About</li>
