@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import "./style.css";
-// import router from "./router";
-// import { Vue3Icon } from "vue3-icon";
+// import VueRouter from 'vue-router'
+import router from "./router";
 import App from "./App.vue";
 
 /* import the fontawesome core */
@@ -16,6 +16,8 @@ import {
   faArrowRightLong,
   faCircleChevronDown,
   faQuoteLeft,
+  faBars,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -33,9 +35,11 @@ library.add(
   faLinkedinIn,
   faTwitter,
   faInstagram,
+  faBars,
+  faXmark,
 );
 
 createApp(App)
+  .use(router)
   .component("font-awesome-icon", FontAwesomeIcon)
-  // .use(router)
   .mount("#app");

@@ -8,7 +8,7 @@ import Navbar from './components/Navbar/Navbar.vue';
   <div class="relative inset-x-0">
     <Navbar />
     <Home/>
-    
+    <RouterView/>
   </div>
 </template>
 
