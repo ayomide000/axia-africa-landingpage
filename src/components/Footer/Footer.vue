@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <section class="mt-[5rem] w-screen md:h-screen bg-[#202054] text-white">
+        <section class="mt-[5rem] w-screen  bg-[#202054] text-white">
         
             <article class="md:p-9 px-5 grid md:place-content-center md:place-items-center">
                 <div class="md:px-33 md:w-[80%] grid-cols-2 grid md:grid-cols-[1.5fr_1fr_1fr_1fr] gap-3">

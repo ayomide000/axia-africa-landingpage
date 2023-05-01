@@ -18,6 +18,7 @@ import {
   faQuoteLeft,
   faBars,
   faXmark,
+  faCalendarDays,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -25,6 +26,8 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
+import { faClock } from "@fortawesome/free-regular-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -37,6 +40,8 @@ library.add(
   faInstagram,
   faBars,
   faXmark,
+  faClock,
+  faCalendarDays,
 );
 
 createApp(App)

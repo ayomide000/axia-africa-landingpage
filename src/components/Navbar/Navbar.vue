@@ -11,8 +11,8 @@
             <div class="hidden md:flex gap-2">
                 <li>About</li>
                 <li>Schools <span class="  mx-1">
-                      <font-awesome-icon @mouseover="toggleIcon"  icon="fa-solid fa-circle-chevron-down"/>
-                        <SchoolNav v-if="mobileMenu == true" @mouseleave="toggleIcon" ></SchoolNav>
+                      <font-awesome-icon @mouseover="toggleSchool"  icon="fa-solid fa-circle-chevron-down"/>
+                        <SchoolNav v-if="isSchool == true" @mouseleave="toggleSchool" ></SchoolNav>
                    
                   </span></li>
                 <li>Join our Community</li>
@@ -55,6 +55,12 @@ import MobileView from './MobileView.vue'
 import {ref, onMounted} from 'vue'
 
 const mobileMenu = ref(false)
+const isSchool = ref(false)
+
+const toggleSchool = () => {
+    isSchool.value = !isSchool.value
+    console.log(isSchool)
+}
 const toggleIcon = () => {
     mobileMenu.value = !mobileMenu.value
     console.log(mobileMenu)

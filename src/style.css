@@ -19,6 +19,28 @@ li {
   /* font-weight: bold; */
 }
 
+.box-shadow {
+  box-shadow: 7px 7px 0.1px rgba(253, 251, 251);
+}
+.box-shadow:hover {
+  /* transition: all 0.3s ease-in-out; */
+  box-shadow: 7px 7px 0.1px #f39f29;
+}
+
+.secThree-shadow {
+  box-shadow: 7px 7px 0.1px #202054;
+}
+.secThree-shadow:hover {
+  box-shadow: 7px 7px 0.1px #f39f29;
+}
+
+.secFour-shadow {
+  box-shadow: 7px 7px 0.1px #fff;
+}
+.secFour-shadow:hover {
+  box-shadow: 7px 7px 0.1px #f39f29;
+}
+
 :root {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.5;
