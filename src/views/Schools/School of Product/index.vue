@@ -5,6 +5,8 @@
         <SectionThree/>
         <SectionFour/>
         <SectionFive/>
+        <SectionSeven/>
+        <Footer/>
     </div>
 </template>
 
@@ -14,6 +16,8 @@ import SectionTwoVue from './SectionTwo.vue';
 import SectionThree from './SectionThree.vue';
 import SectionFour from './SectionFour.vue';
 import SectionFive from './SectionFive.vue';
+import SectionSeven from '../../../components/Home/SectionSeven.vue';
+import Footer from '../../../components/Footer/Footer.vue'
 </script>
 
 <style lang="scss" scoped>

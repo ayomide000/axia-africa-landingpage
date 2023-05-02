@@ -1,8 +1,8 @@
 <template>
     <section class="w-screen bg-[#fffcf9] px-3">
         <!-- ===HEADING==== -->
-        <header class=" md:px-33 md:w-[80%] mx-auto my-[4rem]">
-            <h2>Our success story</h2>
+        <header class=" md:px-33 md:w-[80%] mx-auto my-[2rem]">
+            <h2 class="font-bold text-3xl">Our success story</h2>
             <p>What our students are saying about their learning experience.</p>
         </header>
         <!-- ====ANIMATION CARDS==== -->
