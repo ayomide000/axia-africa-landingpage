@@ -1,7 +1,7 @@
 <template>
-     <nav class="fixed z-10 w-full center inset-x-0 bg-[#fffcf9] h-[5rem]">
-     <div class="mt-2 px-3  md:px-32 mx-auto">
-        <header class="md:w-full flex md:items-center md:justify-between">
+     <nav class="fixed z-10 w-full  inset-x-0 bg-[#fff] h-[4rem]">
+     <div class=" px-3  md:px-32 mx-auto bg-[#fff]">
+        <header class="md:w-full flex md:items-center  md:justify-between bg-[#fff]">
                 <!-- ====LOGO==== -->
             <div>
                <router-link to="/"><img class="w-1/2 aspect-square md:w-full " :src="Logo" alt="axia logo"></router-link> 
@@ -25,12 +25,6 @@
                  </li>
             </div>
               <!-- ====APPLY NOW=== -->
-            <!-- <div class="hidden w-auto md:flex mr-[4rem] -mt-[3rem] group">
-                <span class="border-2  border-[#1d1e21] w-[7rem] p-3 bg-white absolute z-10 text-[#1d1e21] group-hover:text-white group-hover:bg-[#1d1e21] transition ease-in duration-300"><a href="/">Apply Now</a></span>
-                <span  class="p-3 ml-1 h-[2.7rem] w-[7rem] absolute mt-4 z-1 bg-[#1d1e21] group-hover:bg-[#cb974d] transition ease-in  duration-300">
-                 
-                </span>
-            </div> -->
 
             <div class="hidden group md:inline-block ">
                         <button class="border-[3px] text-center mx-auto border-[#000] px-6 py-3 bg-white text-[#000] group-hover:text-white group-hover:bg-[#202054] transition ease-in duration-300 blue-shadow"> Apply Now

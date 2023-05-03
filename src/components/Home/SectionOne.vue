@@ -16,18 +16,12 @@
           Begin your tech journey and expand your career opportunities in the tech space
           by learning tech skills in demand.
         </p>
-        <div class="grid md:grid-cols-2 gap-0 md:gap-2 mt-[2rem] ">
-          <div class="group block w-[10%] md:w-full mx-auto ">
-            <button
-              class="border-2 w-[7rem] border-[#1d1e21] p-3 bg-white absolute z-10 text-[#1d1e21] group-hover:text-white group-hover:bg-[#1d1e21] transition ease-in duration-300"
-            >
-              Apply Now
-            </button>
-            <button
-              class="md:p-3 md:ml-1 h-[3rem] md:h-[2.6rem] absolute ml-[0.4rem] mt-[0.55rem] md:mt-4 z-1 w-[7rem] bg-[#1d1e21] group-hover:bg-[#cb974d] transition ease-in duration-300"
-            ></button>
-          </div>
-          <div class="md:ml-[2rem] block w-[30%] md:w-full mx-auto  mt-[5rem] md:mt-3 md:font-semi-bold">
+        <div class="grid md:grid-cols-2 gap-0 mt-[2rem] ">
+          <div class="hidden group md:inline-block">
+                 <button class="border-[3px] text-center mx-auto border-[#000] px-6 py-3 bg-white text-[#000] group-hover:text-white group-hover:bg-[rgb(172,172,231)] transition ease-in duration-300 blue-shadow"> Apply Now
+                  </button>
+            </div>
+          <div class="block w-[30%] md:w-full mx-auto mt-[5rem] md:mt-3 md:font-semi-bold">
             <a class="underline cursor-pointer" href="/">Speak with an advisor <font-awesome-icon icon="fa-solid fa-arrow-right-long" /></a>
           </div>
         </div>

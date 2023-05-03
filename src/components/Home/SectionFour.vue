@@ -19,8 +19,8 @@
                         <div class="mb-[3rem] text-2xl md:text-4xl">
                             <font-awesome-icon icon="fa-solid fa-quote-left" size="2xl" color="white"/>
                         </div>
-                        <p class="mb-[2rem] text-xs md:text-xl">Axia Africa is an organization that is focused on equipping African youths with the knowledge and digital skills needed today Our aim is to make tech knowledge accessible to every individual irrespective of age, literacy, and location.</p>
-                        <p class="text-xs md:text-xl">We are looking forward to building a strong community of ready-to-work personnel and employable candidates around the world in the tech space.</p>
+                        <p class="mb-[2rem] text-xs md:text-base">Axia Africa is an organization that is focused on equipping African youths with the knowledge and digital skills needed today Our aim is to make tech knowledge accessible to every individual irrespective of age, literacy, and location.</p>
+                        <p class="text-xs md:text-base">We are looking forward to building a strong community of ready-to-work personnel and employable candidates around the world in the tech space.</p>
                     </div>
                 </div>
                 <!-- ===SECOND CONTENT==== -->
@@ -29,7 +29,7 @@
                         <div class="bg-white w-[4rem] h-[2px] text-center mt-3 ml-2"></div>
                         <h2 class="text-2xl font-semibold">Why choose us</h2>
                     </div>
-                    <p class="py-[1rem] text-xs md:text-xl">We at Axia Africa are intentional about our students and focused about building a community. The tech space in Africa is fast growing and we have the necessary programmes to help launch you into that space. We sharpen your skills to give you leverage in your career while navigating the job market</p>
+                    <p class="py-[1rem] text-xs md:text-base">We at Axia Africa are intentional about our students and focused about building a community. The tech space in Africa is fast growing and we have the necessary programmes to help launch you into that space. We sharpen your skills to give you leverage in your career while navigating the job market</p>
                 </div>
             </div>
         

@@ -14,9 +14,19 @@ const routes = [
     component: () => import("../views/Schools/SchoolNav.vue"),
   },
   {
-    path: "/school/product",
+    path: "/schools/product",
     name: "SchoolOfProduct",
     component: () => import("../views/Schools/School of Product/index.vue"),
+  },
+  {
+    path: "/schools/engineering",
+    name: "SchoolOfEngineering",
+    component: () => import("../views/Schools/School of Engineering/index.vue"),
+  },
+  {
+    path: "/schools/data",
+    name: "SchoolOfData",
+    component: () => import("../views/Schools/School of Data/index.vue"),
   },
 
   // {

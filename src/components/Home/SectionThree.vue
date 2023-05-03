@@ -5,17 +5,11 @@
                 <!-- ===TEXT=== -->
                 <div>
                     <h2 class="font-bold md:text-4xl leading-relaxed">Confused about what to learn?</h2>
-                    <p class="whitespace-prewrap my-9 text-xs">Speak with our professional tech advisors to help kick start your tech journey and pilot you to being an expert in your desired field.</p>
-                    <div class="group my-[3rem]">
-                        <button
-                        class="border-2 w-auto border-white p-3 bg-[#202054] absolute z-10 text-white group-hover:text-[#202054] group-hover:bg-white transition ease-in duration-300"
-                        >
-                        Speak with an Advisor
-                        </button>
-                        <button
-                        class="p-3 ml-1 h-[2.6rem] absolute mt-4 z-1 w-[11.7rem] bg-white group-hover:bg-[#cb974d] transition ease-in duration-300"
-                        ></button>
-                    </div>
+                    <p class="whitespace-prewrap my-9 text-sm md:text-base">Speak with our professional tech advisors to help kick start your tech journey and pilot you to being an expert in your desired field.</p>
+                    <div class="hidden group md:inline-block">
+                     <button class="border-[3px] text-center mx-auto border-white font-bold px-6 py-3 bg-[#202054] text-white group-hover:text-[#202054] group-hover:bg-white transition ease-in duration-300 white-shadow"> Speak with an Advisor
+                      </button>
+                </div>
                 </div>
                 <!-- ===IMAGE=== -->
                 <div class="my-[4rem]">

@@ -11,16 +11,11 @@
                     <div>
                      <img :src="Foster" alt="learning">
                     </div>
-                    <p class="my-[2rem] md:w-[60%] text-xs">Don’t just wait around, Register and join our students ready to enroll and kick start their tech career.</p>
-                    <div class="group mt-[3rem] mb-[4rem] md:my-[2rem]">
-                            <button
-                            class="border-[3px] w-[8rem] border-white p-3 bg-[#141414] absolute z-10 text-white group-hover:text-[#202054] group-hover:bg-white transition ease-in duration-300"
-                            >
-                            Apply Now
-                            </button>
-                            <button
-                            class="p-3 ml-1 h-[2.6rem] absolute mt-4 z-1 w-[8rem] bg-white group-hover:bg-[#cb974d] transition ease-in duration-300"
-                            ></button>
+                    <p class="my-[2rem] md:w-[60%] text-sm md:text-base">Don’t just wait around, Register and join our students ready to enroll and kick start their tech career.</p>
+    
+                     <div class="hidden group md:inline-block">
+                         <button class="border-[3px] text-center my-7 mx-auto border-white font-bold px-6 py-3 bg-[#141414]  text-white group-hover:text-[#202054] group-hover:bg-white transition ease-in duration-300 white-shadow"> Apply Now
+                          </button>
                     </div>
             </div>
         </article>
