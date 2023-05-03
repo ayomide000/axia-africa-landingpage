@@ -3,9 +3,9 @@
         <article class="px-5 py-4 grid grid-cols-2 gap-[4rem] w-[80%] my-[5rem]">
             <div class="flex flex-col">
                 <h3 class="font-semibold">SCHOOLS</h3>
-                <a class="py-[0.5rem]" href="/">School of Product</a>
-                <a class="py-[0.5rem]" href="/">School of Data</a>
-                <a class="py-[0.5rem]" href="/">School of Engineering</a>
+                <router-link to="/schools/product" class="py-[0.5rem]">  School of Product</router-link>
+                <router-link to="/schools/data" class="py-[0.5rem]">School of Data</router-link>
+                 <router-link to="/schools/engineering" class="py-[0.5rem]">School of Engineering</router-link>
             </div>
             <div class="flex flex-col">
                 <h3 class="font-semibold">COMPANY</h3>
