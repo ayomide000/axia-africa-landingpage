@@ -5,27 +5,27 @@ import Home from "../components/Home/Home.vue";
 const routes = [
   {
     path: "/",
-    name: "Home",
+    // name: "Home",
     component: Home,
   },
   {
     path: "/about",
-    name: "About",
+    // name: "About",
     component: () => import("../views/Schools/SchoolNav.vue"),
   },
   {
     path: "/schools/product",
-    name: "SchoolOfProduct",
+    // name: "SchoolOfProduct",
     component: () => import("../views/Schools/School of Product/index.vue"),
   },
   {
     path: "/schools/engineering",
-    name: "SchoolOfEngineering",
+    // name: "SchoolOfEngineering",
     component: () => import("../views/Schools/School of Engineering/index.vue"),
   },
   {
     path: "/schools/data",
-    name: "SchoolOfData",
+    // name: "SchoolOfData",
     component: () => import("../views/Schools/School of Data/index.vue"),
   },
 
