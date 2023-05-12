@@ -13,7 +13,7 @@
                     </div>
                     <p class="my-[2rem] md:w-[60%] text-sm md:text-base">Don’t just wait around, Register and join our students ready to enroll and kick start their tech career.</p>
     
-                     <div class="hidden group md:inline-block">
+                     <div class="group w-1/2 mx-auto md:inline-block">
                          <button class="border-[3px] text-center my-7 mx-auto border-white font-bold px-6 py-3 bg-[#141414]  text-white group-hover:text-[#202054] group-hover:bg-white transition ease-in duration-300 white-shadow"> Apply Now
                           </button>
                     </div>

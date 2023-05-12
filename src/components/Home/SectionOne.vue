@@ -1,5 +1,5 @@
 <template>
-  <section class="md:container px-4 mx-auto font-serif w-full md:pl-20 h-screen">
+  <section class="md:container px-4 mx-auto font-serif w-full md:pl-20 md:h-screen">
     <article class="flex flex-col md:flex-row">
       <div class="w-full">
         <h2
@@ -17,11 +17,11 @@
           by learning tech skills in demand.
         </p>
         <div class="grid md:grid-cols-2 gap-0 mt-[2rem] ">
-          <div class="hidden group md:inline-block">
-                 <button class="border-[3px] text-center mx-auto border-[#000] px-6 py-3 bg-white text-[#000] group-hover:text-white group-hover:bg-[rgb(172,172,231)] transition ease-in duration-300 blue-shadow"> Apply Now
+          <div class="group w-1/2 mx-auto md:inline-block">
+                 <button class="border-[3px] text-center mx-auto border-[#000] px-6 py-3 bg-white text-[#000] group-hover:text-white group-hover:bg-[#202054] transition ease-in duration-300 blue-shadow"> Apply Now
                   </button>
             </div>
-          <div class="block w-[30%] md:w-full mx-auto mt-[5rem] md:mt-3 md:font-semi-bold">
+          <div class="block w-1/2 md:w-full mx-auto mt-6 md:mt-3 md:font-semi-bold">
             <a class="underline cursor-pointer" href="/">Speak with an advisor <font-awesome-icon icon="fa-solid fa-arrow-right-long" /></a>
           </div>
         </div>

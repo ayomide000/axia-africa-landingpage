@@ -5,7 +5,7 @@
             <article class="md:pt-14 px-8 py-4 grid md:place-content-center md:place-items-center">
                 <div class="md:px-33 md:w-[80%] grid-cols-2 grid md:grid-cols-[1.5fr_1fr_1fr_1fr_1fr] gap-3 ">
                         <!-- ====ICON==== -->
-                    <div class="md:-mt-[2rem] text-sm md:text-base md:col-span-2">
+                    <div class="md:-mt-[2rem] text-sm md:text-base col-span-2">
                         <img class="w-[5rem] aspect-square" :src="Logo" alt="Logo">
                         <p class="mb-7 md:my-[1rem] md:w-10/12">An organization that is focused on equipping African youths with the knowledge and skills needed in the tech space.</p>
                         <!-- ====SOCIAL ICONS=== -->
